@@ -1,5 +1,5 @@
 name: 'Setup Varbase AI'
-description: 'Installs and configures Varbase AI and used modules.'
+description: 'A Drupal recipe to setup default Varbase AI installed modules, configs and permissions.'
 type: 'optional'
 
 install:

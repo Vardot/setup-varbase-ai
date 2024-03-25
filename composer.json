@@ -1,6 +1,6 @@
 {
   "name": "vardot/setup-varbase-ai",
-  "description": "Installs and configures Varbase AI and used modules.",
+  "description": "A Drupal recipe to setup default Varbase AI installed modules, configs and permissions.",
   "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe"],
   "type": "drupal-recipe",
   "license": "GPL-2.0-or-later",
