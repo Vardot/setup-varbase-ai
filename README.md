@@ -1,3 +1,3 @@
 # Setup Varbase AI
 
-Installs and configures Varbase AI and used modules.
+A Drupal recipe to manage default Varbase AI installed modules, configs and permissions.

@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "drupal/varbase_ai": "*"
+    "drupal/varbase_ai": "~1"
   }
 }
