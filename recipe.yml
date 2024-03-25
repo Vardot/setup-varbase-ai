@@ -1,0 +1,10 @@
+name: 'Setup Varbase AI'
+description: 'Installs and configures Varbase AI and used modules.'
+type: 'optional'
+
+install:
+  - varbase_ai
+
+config:
+  import:
+    varbase_ai: '*'

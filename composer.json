@@ -1,0 +1,17 @@
+{
+  "name": "vardot/setup-varbase-ai",
+  "description": "Installs and configures Varbase AI and used modules.",
+  "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe"],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Vardot",
+      "homepage": "https://www.drupal.org/vardot",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/varbase_ai": "*"
+  }
+}
