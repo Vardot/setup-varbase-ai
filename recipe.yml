@@ -1,10 +1,34 @@
 name: 'Setup Varbase AI'
-description: 'A Drupal recipe to setup default Varbase AI installed modules, configs and permissions.'
+description: 'A Drupal recipe to setup default Varbase AI needed modules, import configs and grant permissions.'
 type: 'optional'
-
 install:
-  - varbase_ai
-
+  - openai
+  - openai_ckeditor
+  - openai_content
+  - ai_interpolator
+  - ai_interpolator_openai
 config:
   import:
-    varbase_ai: '*'
+    openai: '*'
+    openai_ckeditor: '*'
+    openai_content: '*'
+    ai_interpolator: '*'
+    ai_interpolator_openai: '*'
+  user.role.site_admin:
+    ensure_exists:
+      label: 'Site Admin'
+    grantPermissions:
+      - 'access openai content tools'
+      - 'use openai ckeditor'
+  user.role.content_admin:
+    ensure_exists:
+      label: 'Content Admin'
+    grantPermissions:
+      - 'access openai content tools'
+      - 'use openai ckeditor'
+  user.role.editor:
+    ensure_exists:
+      label: 'Editor'
+    grantPermissions:
+      - 'access openai content tools'
+      - 'use openai ckeditor'
