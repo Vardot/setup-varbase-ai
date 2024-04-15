@@ -15,20 +15,14 @@ config:
     ai_interpolator: '*'
     ai_interpolator_openai: '*'
   user.role.site_admin:
-    ensure_exists:
-      label: 'Site Admin'
     grantPermissions:
       - 'access openai content tools'
       - 'use openai ckeditor'
   user.role.content_admin:
-    ensure_exists:
-      label: 'Content Admin'
     grantPermissions:
       - 'access openai content tools'
       - 'use openai ckeditor'
   user.role.editor:
-    ensure_exists:
-      label: 'Editor'
     grantPermissions:
       - 'access openai content tools'
       - 'use openai ckeditor'

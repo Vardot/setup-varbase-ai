@@ -4,7 +4,7 @@ A Drupal recipe to setup default Varbase AI needed modules, import configs and g
 
 Add the recipe using composer:
 ```
-composer require vardot/setup-varbase-ai
+composer require vardot/setup-varbase-ai:~1.0
 ```
 
 Change directory to `/web` or `/docroot`
@@ -12,4 +12,8 @@ Change directory to `/web` or `/docroot`
 Run the Drupal recipe bash script:
 ```
 php core/scripts/drupal recipe recipes/contrib/setup-varbase-ai
+```
+or
+```
+php core/scripts/drupal recipe ../vendor/vardot/setup-varbase-ai
 ```
