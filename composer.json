@@ -1,7 +1,7 @@
 {
   "name": "vardot/setup-varbase-ai",
   "description": "A Drupal recipe to setup default Varbase AI installed modules, configs and permissions.",
-  "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe"],
+  "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe", "setup AI", "Setup Drupal AI"],
   "type": "drupal-recipe",
   "license": "GPL-2.0-or-later",
   "authors": [
@@ -13,7 +13,7 @@
   ],
   "require": {
     "drupal/core": "~10",
-    "vardot/varbase-patches": "~10",
+    "vardot/varbase-patches": "~9 || ~10",
     "drupal/openai": "~1",
     "drupal/ai_interpolator": "~1",
     "drupal/ai_interpolator_openai": "~1"
