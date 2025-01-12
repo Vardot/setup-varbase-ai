@@ -8,7 +8,7 @@ Run this recipe activate Varbase AI, But without the need to enable the Varbase 
 
 Add the recipe using composer:
 ```
-composer require vardot/setup-varbase-ai:~1.0
+composer require vardot/setup-varbase-ai:~2.0
 ```
 
 Change directory to `/web` or `/docroot`
@@ -17,7 +17,7 @@ Run the Drupal recipe bash script:
 ```
 php core/scripts/drupal recipe recipes/contrib/setup-varbase-ai
 ```
-or
+
 ```
-php core/scripts/drupal recipe ../vendor/vardot/setup-varbase-ai
+drush recipe recipes/contrib/setup-varbase-ai
 ```
